@@ -1,14 +1,14 @@
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Navbar />
       <div className="container mt-5">
-        <h1 className="text-center">Welcome to My Portfolio</h1>
-        <p className="text-center mt-3">
-          Explore my skills, projects, and get in touch with me!
+        <h1 className="text-center">About Me</h1>
+        <p className="mt-3">
+          Hello! I am a passionate developer with skills in Next.js, Bootstrap, and more.
         </p>
       </div>
       <Footer />
